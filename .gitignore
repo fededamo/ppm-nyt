@@ -1,0 +1,17 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.log
+.sass-cache/
+*.css.map
+node_modules/
