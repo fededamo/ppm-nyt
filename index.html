@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New York Times - Header Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nyt-header">
+        <div class="top-bar">
+            <div class="search-section">
+                <button class="search-button" aria-label="Search">Search</button>
+            </div>
+
+            <nav class="edition-nav" aria-label="Editions">
+                <ul>
+                    <li class="active"><a href="#">U.S.</a></li>
+                    <li><a href="#">INTERNATIONAL</a></li>
+                    <li><a href="#">CANADA</a></li>
+                    <li><a href="#">ESPAÑOL</a></li>
+                    <li><a href="#">中文</a></li>
+                </ul>
+            </nav>
+
+            <div class="user-actions">
+                <a href="#" class="subscribe-button">SUBSCRIBE FOR €0.50/WEEK</a>
+                <a href="#" class="login-button">LOG IN</a>
+            </div>
+        </div>
+
+        <div class="middle-bar">
+            <div class="date-info">
+                <p>Saturday, May 2, 2026</p>
+                <a href="#" class="todays-paper">Today's Paper</a>
+            </div>
+
+            <div class="logo-container">
+                <a href="/">
+                    <h1 class="logo-text">The New York Times</h1>
+                </a>
+            </div>
+
+        </div>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#">U.S.</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-template">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">U.S.</a></li>
+                                        <li><a href="#">Politics</a></li>
+                                        <li><a href="#">New York</a></li>
+                                        <li><a href="#">California</a></li>
+                                        <li><a href="#">Education</a></li>
+                                        <li><a href="#">Health</a></li>
+                                        <li><a href="#">Obituaries</a></li>
+                                        <li><a href="#">Science</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Climate</a></li>
+                                        <li><a href="#">Weather</a></li>
+                                        <li><a href="#">Sports</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Tech</a></li>
+                                        <li><a href="#">Analysis</a></li>
+                                        <li><a href="#">The Magazine</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>TOP STORIES</h4>
+                                    <ul>
+                                        <li><a href="#">Donald Trump</a></li>
+                                        <li><a href="#">Supreme Court</a></li>
+                                        <li><a href="#">Congress</a></li>
+                                        <li><a href="#">Immigration</a></li>
+                                        <li><a href="#">Abortion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Morning Brief</strong>
+                                            <p>Make sense of the day's news and ideas.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Evening Brief</strong>
+                                            <p>Catch up on big news, and wind down to end your day.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PODCASTS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Daily Podcast</strong>
+                                            <p>The biggest stories of our time, in 20 minutes a day.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all podcasts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">World</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-world">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">World</a></li>
+                                        <li><a href="#">Africa</a></li>
+                                        <li><a href="#">Americas</a></li>
+                                        <li><a href="#">Asia</a></li>
+                                        <li><a href="#">Australia</a></li>
+                                        <li><a href="#">Canada</a></li>
+                                        <li><a href="#">Europe</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Middle East</a></li>
+                                        <li><a href="#">Science</a></li>
+                                        <li><a href="#">Climate</a></li>
+                                        <li><a href="#">Weather</a></li>
+                                        <li><a href="#">Health</a></li>
+                                        <li><a href="#">Obituaries</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>TOP STORIES</h4>
+                                    <ul>
+                                        <li><a href="#">Middle East Crisis</a></li>
+                                        <li><a href="#">Russia-Ukraine War</a></li>
+                                        <li><a href="#">China International Relations</a></li>
+                                        <li><a href="#">The Global Profile</a></li>
+                                        <li><a href="#">Leer en Español</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column promo-column-double">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-grid">
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>The World</strong>
+                                                <p>A guide to understanding the news, made for readers around the globe.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>Your Places: Global Update</strong>
+                                                <p>The latest news for any part of the world you select.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>The Interpreter</strong>
+                                                <p>Original analysis on the week's biggest global stories.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>Canada Letter</strong>
+                                                <p>Backstories and analysis from our Canadian correspondents.</p>
+                                            </div>
+                                        </div>
+                                        <div class="see-all-grid-cell">
+                                            <a href="#" class="see-all">See all newsletters</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Business</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-business">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Tech</a></li>
+                                        <li><a href="#">Economy</a></li>
+                                        <li><a href="#">Media</a></li>
+                                        <li><a href="#">Finance and Markets</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Finance Newsletter</a></li>
+                                        <li><a href="#">Personal Tech</a></li>
+                                        <li><a href="#">Energy Transition</a></li>
+                                        <li><a href="#">Your Money</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>TOP STORIES</h4>
+                                    <ul>
+                                        <li><a href="#">U.S. Economy</a></li>
+                                        <li><a href="#">Stock Market</a></li>
+                                        <li><a href="#">Artificial Intelligence</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Finance Newsletter</strong>
+                                            <p>The most crucial business and policy news you need to know.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>On Tech</strong>
+                                            <p>Our best tech reporting from the week.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PODCASTS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Tech Podcast</strong>
+                                            <p>Our tech journalists help you make sense of the rapidly changing tech world.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all podcasts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Arts</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-arts">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Today's Arts</a></li>
+                                        <li><a href="#">Book Review</a></li>
+                                        <li><a href="#">Best Sellers</a></li>
+                                        <li><a href="#">Dance</a></li>
+                                        <li><a href="#">Movies</a></li>
+                                        <li><a href="#">Music</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Television</a></li>
+                                        <li><a href="#">Theater</a></li>
+                                        <li><a href="#">Pop Culture</a></li>
+                                        <li><a href="#">T Magazine</a></li>
+                                        <li><a href="#">Visual Arts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>RECOMMENDATIONS</h4>
+                                    <ul>
+                                        <li><a href="#">100 Best Movies of the 21st Century</a></li>
+                                        <li><a href="#">Critic's Picks</a></li>
+                                        <li><a href="#">What to Read</a></li>
+                                        <li><a href="#">What to Watch</a></li>
+                                        <li><a href="#">What to Listen To</a></li>
+                                        <li><a href="#">5 Minutes to Make You Love Music</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Books</strong>
+                                            <p>Reviews, news and features to help you find your next read.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Watching</strong>
+                                            <p>Streaming TV and movie recommendations.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PODCASTS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Book Review</strong>
+                                            <p>The podcast that takes you inside the literary world.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Popcast</strong>
+                                            <p>Pop music news, new songs and albums, and artists of note.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all podcasts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Lifestyle</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-lifestyle">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">All Lifestyle</a></li>
+                                        <li><a href="#">Well</a></li>
+                                        <li><a href="#">Travel</a></li>
+                                        <li><a href="#">Style</a></li>
+                                        <li><a href="#">Real Estate</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Love</a></li>
+                                        <li><a href="#">Your Money</a></li>
+                                        <li><a href="#">Personal Tech</a></li>
+                                        <li><a href="#">T Magazine</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>COLUMNS</h4>
+                                    <ul>
+                                        <li><a href="#">36 Hours</a></li>
+                                        <li><a href="#">Ask Well</a></li>
+                                        <li><a href="#">The Hunt</a></li>
+                                        <li><a href="#">Relationships</a></li>
+                                        <li><a href="#">Where to Eat</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE COLUMNS</h4>
+                                    <ul>
+                                        <li><a href="#">Vows</a></li>
+                                        <li><a href="#">Social Q's</a></li>
+                                        <li><a href="#">The Ethicist</a></li>
+                                        <li><a href="#">Ask the Therapist</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>The Weekender</strong>
+                                            <p>Unwind with stories about culture and the way we live.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Well</strong>
+                                            <p>Essential news and guidance to live your healthiest life.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PODCASTS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Relationships</strong>
+                                            <p>The complicated love lives of real people.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all podcasts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Opinion</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-opinion">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>SECTIONS</h4>
+                                    <ul>
+                                        <li><a href="#">Opinion</a></li>
+                                        <li><a href="#">Guest Essays</a></li>
+                                        <li><a href="#">Editorials</a></li>
+                                        <li><a href="#">Op-Docs</a></li>
+                                        <li><a href="#">Videos</a></li>
+                                        <li><a href="#">Letters</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>TOPICS</h4>
+                                    <ul>
+                                        <li><a href="#">Politics</a></li>
+                                        <li><a href="#">World</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Tech</a></li>
+                                        <li><a href="#">Climate</a></li>
+                                        <li><a href="#">Health</a></li>
+                                        <li><a href="#">Culture</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>COLUMNISTS</h4>
+                                    <ul>
+                                        <li><a href="#">Jamelle Bouie</a></li>
+                                        <li><a href="#">Ross Douthat</a></li>
+                                        <li><a href="#">Maureen Dowd</a></li>
+                                        <li><a href="#">David French</a></li>
+                                        <li><a href="#">Thomas L. Friedman</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE COLUMNISTS</h4>
+                                    <ul>
+                                        <li><a href="#">M. Gessen</a></li>
+                                        <li><a href="#">Michelle Goldberg</a></li>
+                                        <li><a href="#">Ezra Klein</a></li>
+                                        <li><a href="#">Nicholas Kristof</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE COLUMNISTS</h4>
+                                    <ul>
+                                        <li><a href="#">Carlos Lozada</a></li>
+                                        <li><a href="#">Tressie McMillan Cottom</a></li>
+                                        <li><a href="#">Lydia Polgreen</a></li>
+                                        <li><a href="#">Bret Stephens</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PODCASTS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Interesting Times with Ross Douthat</strong>
+                                            <p>Mapping the new world order through interviews and conversations.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>The Opinions</strong>
+                                            <p>You've heard the news, here's what to make of it.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Opinion Podcast</strong>
+                                            <p>Discussions of ideas that matter, plus book recommendations.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all podcasts</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Video</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-video">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content mega-menu-content-compact">
+                                <div class="mega-column">
+                                    <h4>PLAYLISTS</h4>
+                                    <ul>
+                                        <li><a href="#">Today's Videos</a></li>
+                                        <li><a href="#">U.S.</a></li>
+                                        <li><a href="#">Politics</a></li>
+                                        <li><a href="#">Immigration</a></li>
+                                        <li><a href="#">NY Region</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE PLAYLISTS</h4>
+                                    <ul>
+                                        <li><a href="#">Science</a></li>
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Culture</a></li>
+                                        <li><a href="#">Books</a></li>
+                                        <li><a href="#">Wellness</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE PLAYLISTS</h4>
+                                    <ul>
+                                        <li><a href="#">World</a></li>
+                                        <li><a href="#">Africa</a></li>
+                                        <li><a href="#">Americas</a></li>
+                                        <li><a href="#">Asia</a></li>
+                                        <li><a href="#">South Asia</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE PLAYLISTS</h4>
+                                    <ul>
+                                        <li><a href="#">Donald Trump</a></li>
+                                        <li><a href="#">Middle East Crisis</a></li>
+                                        <li><a href="#">Russia-Ukraine Crisis</a></li>
+                                        <li><a href="#">Visual Investigations</a></li>
+                                        <li><a href="#">Opinion Video</a></li>
+                                    </ul>
+                                    <a href="#" class="see-all see-all-spaced">See all videos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Audio</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-audio">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h4>LISTEN</h4>
+                                    <ul>
+                                        <li><a href="#">The Headlines</a></li>
+                                        <li><a href="#">Daily Podcast</a></li>
+                                        <li><a href="#">Tech Podcast</a></li>
+                                        <li><a href="#">Opinion Podcast</a></li>
+                                        <li><a href="#">Interesting Times</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE LISTEN</h4>
+                                    <ul>
+                                        <li><a href="#">The Opinions</a></li>
+                                        <li><a href="#">Stories Productions</a></li>
+                                        <li><a href="#">The Book Review Podcast</a></li>
+                                        <li><a href="#">Relationships</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE LISTEN</h4>
+                                    <ul>
+                                        <li><a href="#">Popcast</a></li>
+                                        <li><a href="#">Reporter Reads</a></li>
+                                        <li><a href="#">Cannonball</a></li>
+                                        <li><a href="#">The Interview</a></li>
+                                    </ul>
+                                    <a href="#" class="see-all see-all-spaced">See all audio</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>FEATURED</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Cannonball with Wesley Morris</strong>
+                                            <p>Come on in, the culture's fine.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>The Headlines</strong>
+                                            <p>Your morning listen. Top stories, in 10 minutes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Stories: The Idiot</strong>
+                                            <p>Compassion has its limits when it comes to your own cousin.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Audio</strong>
+                                            <p>Our editors share their favorite listens from The Times and beyond.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Stories</strong>
+                                            <p>Be the first to know about our new shows.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Games</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-games">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h2 class="mega-menu-title">Games</h2>
+                                    <p class="mega-menu-description">Word games, logic puzzles and Puzzles,
+                                        including an extensive archive.</p>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>PLAY</h4>
+                                    <ul class="games-list">
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Crossplay <span class="new-badge">NEW</span></a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Word Game</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Spelling Game</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                The Puzzle</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                The Midi Puzzle <span class="new-badge">NEW</span></a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                The Mini Puzzle</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE PLAY</h4>
+                                    <ul class="games-list">
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Logic Game</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Strands</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Pips</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Sudoku</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Tiles</a></li>
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Letter Boxed</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>COMMUNITY</h4>
+                                    <ul>
+                                        <li><a href="#">Spelling Game Forum</a></li>
+                                        <li><a href="#">Wordplay Column</a></li>
+                                        <li><a href="#">Word Game Review</a></li>
+                                        <li><a href="#">Submit a Puzzle</a></li>
+                                        <li><a href="#">Meet Our Puzzle Constructors</a></li>
+                                        <li><a href="#">Mini to Maestro</a></li>
+                                        <li><a href="#">Word Gamebot</a></li>
+                                        <li><a href="#">Take the Puzzle Personality Quiz</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Gameplay</strong>
+                                            <p>Puzzles, brain teasers, solving tips and more.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Easy Mode</strong>
+                                            <p>Get an easy version of one of the hardest Puzzle puzzles of the week.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Cooking</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-cooking">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h2 class="mega-menu-title">Cooking</h2>
+                                    <p class="mega-menu-description">Recipes, advice and inspiration for
+                                        everyday cooking, special occasions and more.</p>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>RECIPES</h4>
+                                    <ul>
+                                        <li><a href="#">Easy</a></li>
+                                        <li><a href="#">Dinner</a></li>
+                                        <li><a href="#">Quick</a></li>
+                                        <li><a href="#">Healthy</a></li>
+                                        <li><a href="#">Breakfast</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE RECIPES</h4>
+                                    <ul>
+                                        <li><a href="#">Vegetarian</a></li>
+                                        <li><a href="#">Vegan</a></li>
+                                        <li><a href="#">Chicken</a></li>
+                                        <li><a href="#">Pasta</a></li>
+                                        <li><a href="#">Dessert</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>EDITORS' PICKS</h4>
+                                    <ul>
+                                        <li><a href="#">Easy Salmon Recipes</a></li>
+                                        <li><a href="#">Soup and Stew Recipes</a></li>
+                                        <li><a href="#">Easy Weeknight</a></li>
+                                        <li><a href="#">Newest Recipes</a></li>
+                                        <li><a href="#">Cheap and Easy Dinner Ideas</a></li>
+                                        <li><a href="#">Slow Cooker Recipes</a></li>
+                                        <li><a href="#">Healthy Breakfast Ideas</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column promo-column-double">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-grid">
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>The Cooking Newsletter</strong>
+                                                <p>New recipes, easy dinner ideas and smart kitchen tips from Melissa Clark, Sam Sifton
+                                                    and our New York Times Cooking editors.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>Five Weeknight Dishes</strong>
+                                                <p>Dinner ideas for busy people from Emily Weinstein.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item">
+                                            <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                    alt="Placeholder image"></div>
+                                            <div class="promo-text">
+                                                <strong>The Veggie</strong>
+                                                <p>Delicious vegetarian recipes and tips from Tanya Sichynsky.</p>
+                                            </div>
+                                        </div>
+                                        <div class="promo-item promo-item-bottom">
+                                            <a href="#" class="see-all">See all newsletters</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Product Reviews</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-product-reviews">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h2 class="mega-menu-title mega-menu-title-bold">Product
+                                        Reviews</h2>
+                                    <p class="mega-menu-description">Reviews and recommendations for thousands
+                                        of products.</p>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>REVIEWS</h4>
+                                    <ul>
+                                        <li><a href="#">Kitchen</a></li>
+                                        <li><a href="#">Tech</a></li>
+                                        <li><a href="#">Sleep</a></li>
+                                        <li><a href="#">Appliances</a></li>
+                                        <li><a href="#">Home and Garden</a></li>
+                                        <li><a href="#">Moving</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE REVIEWS</h4>
+                                    <ul>
+                                        <li><a href="#">Travel</a></li>
+                                        <li><a href="#">Gifts</a></li>
+                                        <li><a href="#">Deals</a></li>
+                                        <li><a href="#">Baby and Kid</a></li>
+                                        <li><a href="#">Health and Fitness</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>THE BEST...</h4>
+                                    <ul>
+                                        <li><a href="#">Air Purifier</a></li>
+                                        <li><a href="#">Electric Toothbrush</a></li>
+                                        <li><a href="#">Pressure Washer</a></li>
+                                        <li><a href="#">Cordless Stick Vacuum</a></li>
+                                        <li><a href="#">Office Chair</a></li>
+                                        <li><a href="#">Robot Vacuum</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>The Recommendation</strong>
+                                            <p>The best independent reviews, expert advice and intensively researched deals.</p>
+                                        </div>
+                                    </div>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>Clean Everything</strong>
+                                            <p>Step-by-step advice on how to keep everything in your home squeaky clean.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Sports Coverage</a>
+                    <div class="mega-menu-wrapper" id="mega-menu-athletic">
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-column">
+                                    <h2 class="mega-menu-title mega-menu-title-bold">Sports
+                                        Coverage</h2>
+                                    <p class="mega-menu-description">Personalized coverage of your sports
+                                        teams and leagues.</p>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>LEAGUES</h4>
+                                    <ul>
+                                        <li><a href="#">NFL</a></li>
+                                        <li><a href="#">NBA</a></li>
+                                        <li><a href="#">NHL</a></li>
+                                        <li><a href="#">Premier League</a></li>
+                                        <li><a href="#">MLB</a></li>
+                                        <li><a href="#">College Football</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4 class="visually-hidden">MORE LEAGUES</h4>
+                                    <ul>
+                                        <li><a href="#">NCAAM</a></li>
+                                        <li><a href="#">NCAAW</a></li>
+                                        <li><a href="#">Tennis</a></li>
+                                        <li><a href="#">F1</a></li>
+                                        <li><a href="#">Fantasy & Betting</a></li>
+                                        <li><a href="#">WNBA</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column">
+                                    <h4>TOP STORIES</h4>
+                                    <ul>
+                                        <li><a href="#">Today's Headlines</a></li>
+                                        <li><a href="#">N.F.L. Draft</a></li>
+                                        <li><a href="#">2026 Men's World Cup</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>NEWSLETTERS</h4>
+                                    <div class="promo-item">
+                                        <div class="promo-image"><img src="https://placehold.co/100x100/5c6bc0/ffffff?text=Img"
+                                                alt="Placeholder image"></div>
+                                        <div class="promo-text">
+                                            <strong>The Pulse</strong>
+                                            <p>Delivering the top stories in sports, Sunday to Friday.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="see-all">See all newsletters</a>
+                                </div>
+                                <div class="mega-column promo-column">
+                                    <h4>PLAY</h4>
+                                    <ul class="games-list games-list-spaced">
+                                        <li><a href="#"><span class="game-icon"><img
+                                                        src="https://placehold.co/20x20/4caf50/ffffff?text=+" alt="Game Icon"></span>
+                                                Logic Game: Sports Edition</a></li>
+                                        <li><a href="#" class="logic-game-coach">Logic Game Coach</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="main-content-inner">
+            <p>Articoli.</p>
+        </div>
+    </main>
+
+</body>
+
+</html>
