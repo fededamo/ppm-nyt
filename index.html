@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <input type="checkbox" id="sidebar-toggle" class="sidebar-checkbox" aria-label="Toggle navigation menu">
     <header class="nyt-header">
         <div class="top-bar">
             <div class="search-section">
@@ -32,6 +33,10 @@
         </div>
 
         <div class="middle-bar">
+            <label class="hamburger-button" for="sidebar-toggle">
+                <span class="sidebar-icon-open" aria-hidden="true">☰</span>
+                <span class="sidebar-icon-close" aria-hidden="true">&times;</span>
+            </label>
             <div class="date-info">
                 <p>Saturday, May 2, 2026</p>
                 <a href="#" class="todays-paper">Today's Paper</a>
@@ -42,7 +47,12 @@
                     <h1 class="logo-text">The Lorem Times</h1>
                 </a>
             </div>
+            <button class="user-icon-button" aria-label="Account">👤</button>
+        </div>
 
+        <div class="mobile-sub-bar">
+            <span class="mobile-date">Monday, April 27, 2026</span>
+            <a href="#" class="mobile-subscribe-btn">Subscribe for €0.50/week</a>
         </div>
 
         <nav class="main-nav" aria-label="Main Navigation">
@@ -1004,6 +1014,53 @@
             </ul>
         </nav>
     </header>
+
+    <div class="mobile-sidebar-overlay"></div>
+    <nav class="mobile-sidebar" aria-label="Mobile Navigation">
+        <div class="mobile-sidebar-search">
+            <input type="text" placeholder="Search" class="mobile-search-input" aria-label="Search">
+            <button class="mobile-search-go">GO</button>
+        </div>
+        <ul class="mobile-sidebar-nav">
+            <li><a href="#" class="mobile-nav-home">Home <span class="mobile-nav-logo">T</span></a></li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">U.S. <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">World <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Business <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Arts <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Lifestyle <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Opinion <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Video <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Audio <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Games <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Cooking <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Product Reviews <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+            <li class="mobile-nav-expandable">
+                <button class="mobile-nav-btn">Sports Coverage <span class="mobile-nav-chevron">&#8250;</span></button>
+            </li>
+        </ul>
+    </nav>
 
     <main id="main-content">
         <div class="main-content-inner">
